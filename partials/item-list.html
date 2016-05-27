@@ -1,0 +1,25 @@
+<h1>List Addresses</h1>
+  <div>WAWAWAWA</div>
+  {{abArray[0].name}}
+  <div ng-repeat="thingy in abArray">
+      <div class="panel panel-default" ng-hide="thingy">
+        <div class="panel-body">
+          <div class="col-xs-1"><input type="checkbox" ng-model="thingy.isCompleted" ng-change="inputChange(thingy)"/></div>
+          <div class="col-xs-8"><a ng-href="#/items/{{thingy.id}}">{{thingy.task}}</a></div>
+          <div class = "col-xs-1">{{thingy.name}}</div>
+          <div class = "col-xs-1">{{thingy.name}}</div>
+          <div class="col-xs-1"><button class="btn btn-danger" ng-click="itemDelete(thingy.name)"><i class="fa fa-trash" aria-hidden="true"></i></button></div>
+
+      </div>
+    </div>
+  </div>
+   <!--  abObject.name = $scope.name;
+    abObject.street = $scope.street;
+    abObject.city = $scope.city;
+    abObject.state = $scope.state;
+    abObject.zipCode = $scope.zipCode;
+    abObject.pNum = $scope.pNum;
+    console.log("abObject", abObject);
+    abArray.push(abObject);
+    console.log("abArray", abArray);
+    $scope.clear(); -->

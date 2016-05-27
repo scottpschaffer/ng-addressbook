@@ -1,0 +1,31 @@
+{
+  "address":{
+    "address0":{ 
+      "name": "John Smith",
+      "street": "10 Main Street",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "zipCode": "12345",
+      "pNum": "812-345-6789",
+      "notes": "Cousin. Wife is Joan."
+    },
+    "address1":{
+      "name": "Mary Jones",
+      "street": "2334 Wayfarer Road",
+      "city": "Braintree",
+      "state": "Massachusetts",
+      "zipCode": "12348",
+      "pNum": "777-890-6543",
+      "notes": "Former Girlfriend. Very needy."
+    },
+    "address2":{
+      "name": "Tim Anderson",
+      "street": "234 Bluebell Drive",
+      "city": "Smithtown",
+      "state": "New York",
+      "zipCode": "22345",
+      "pNum": "456-823-5677",
+      "notes": "Former College roommate"
+    }
+  }
+}
